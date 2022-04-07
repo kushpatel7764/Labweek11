@@ -1,0 +1,35 @@
+import java.io.File;
+import java.lang.reflect.Array;
+import java.util.Scanner;
+
+public class main {
+    double[] numbers = new double[7];
+    public static void main(String[] args){
+
+
+    File myfile = new File("Numbers");
+    Scanner inputFile = new Scanner(myfile);
+    for (int i = 0; i < numbers.length
+    }
+
+    public double[] SelectionSort (double[] sortNumbers) {
+        for (int i = 0; i < sortNumbers.length; i++){
+            double pointNum = sortNumbers[i];
+            for (int j = 0; j < sortNumbers.length; j++){
+
+            }
+        }
+        return numbers;
+    }
+    //
+        // }
+    public double median (){
+        double median;
+        if (numbers.length % 2 == 0){
+            int middle = numbers.length/2;
+            int middle2 = middle + 1;
+        }
+        median =
+        return median;
+    }
+}
